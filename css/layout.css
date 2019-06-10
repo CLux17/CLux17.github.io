@@ -45,6 +45,10 @@ footer{
     max-width: 1300px;
 }
 
+section ul{
+    padding-left: 2rem;
+}
+
 #container{
     display: flex;
     flex-flow: row;
