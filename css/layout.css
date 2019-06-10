@@ -6,22 +6,57 @@
 header{
     padding: 4em 0;
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 20rem;
 }
 
 #bio{
     padding: 2rem;
-    
-    margin-bottom: 20rem;
 }
 
+main section article p{
+    margin: 2rem;
+}
+main section article img{
+    margin: 1rem 2rem;
+    padding: auto;
+}
+main section div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 
+header{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1700px;
+}
 
+main section{
+    margin: 1rem auto;
+    padding: 2rem;
+    max-width: 1300px;
+}
 
+footer{
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+}
 
+#container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+#container article{
+    margin: 0px 50px;
+}
 
-
-
+#container img{
+    width: 100%;
+}
 
 
 

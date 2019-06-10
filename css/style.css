@@ -20,18 +20,15 @@ header{
 }
 
 
-header,
-main,
-footer{
-    margin: 0 auto;
-    max-width: 1700px;
 
-}
 main section{
     
     background: #333;
 }
 
+#container a{
+    border: 1px solid #fff;
+}
 
 nav{
     background: #333;
