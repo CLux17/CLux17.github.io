@@ -16,10 +16,10 @@ header{
 main section article p{
     margin: 2rem;
 }
-main section article img{
+/* main section article img{
     margin: 1rem 2rem;
     padding: auto;
-}
+} */
 main section div{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -37,6 +37,7 @@ main section{
     max-width: 1300px;
 }
 
+
 footer{
     margin-top: 8rem;
     margin-left: auto;
@@ -48,12 +49,17 @@ footer{
     display: flex;
     flex-flow: row;
     justify-content: center;
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
+}
+/* #container article{
+    margin: 0px 50px;
+} */
+#container article h3{
+    text-align: center;
 }
 #container article{
-    margin: 0px 50px;
+    margin: 1rem;
 }
-
 #container img{
     width: 100%;
 }
