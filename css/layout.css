@@ -49,17 +49,16 @@ footer{
     display: flex;
     flex-flow: row;
     justify-content: center;
-    /* padding: 1rem 2rem; */
 }
-/* #container article{
-    margin: 0px 50px;
-} */
-#container article h3{
-    text-align: center;
-}
+
 #container article{
     margin: 1rem;
 }
+
+#container article h3{
+    text-align: center;
+}
+
 #container img{
     width: 100%;
 }
