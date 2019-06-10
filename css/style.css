@@ -1,3 +1,45 @@
 *{
+    /*background: #333;*/
+    font-family: sans-serif;
+    color: #ddd;
     
+
+}
+
+.background{
+    background-image: url(../images/earthRisingfixed.jpg); 
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+} 
+header{
+    font-size: 64px;
+    color: #444;
+}
+
+
+header,
+main,
+footer{
+    margin: 0 auto;
+    max-width: 1700px;
+
+}
+main section{
+    
+    background: #333;
+}
+
+
+nav{
+    background: #333;
+}
+
+nav a{
+    color: #fff;
+}
+nav a:hover{
+    background: #555;
 }
